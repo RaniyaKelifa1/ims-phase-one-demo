@@ -10,7 +10,7 @@ const LoginPage = () => {
     // Perform form validation and authentication here
 
     // Redirect to /dashboard
-    navigate('/dashboard');
+    navigate('/dashboard/demoview');
   };
   return (
     <Layout style={{ minHeight: '100vh', width: '100vw' }}>
