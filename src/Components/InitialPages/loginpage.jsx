@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Menu, Typography } from 'antd';
 import { useNavigate } from 'react-router-dom';
-
+import logo from '/src/assets/Logo.png';
 const LoginPage = () => {
   const navigate = useNavigate();
 
@@ -23,7 +23,7 @@ const LoginPage = () => {
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
           <img
             className="mx-auto h-20 w-auto"
-            src="https://github.com/RaniyaKelifa1/ims-phase-one-demo/blob/main/src/assets/Logo.png"
+             src={logo}
             alt="Bizuhan and Mebratu Insurance Brokers GP"
           />
           <h2 className="mt-6 text-center text-2xl font-bold tracking-tight text-gray-900">
