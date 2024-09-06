@@ -17,7 +17,7 @@ import './Dashboard.css'; // Ensure you have appropriate CSS for styling
 import { useNavigate } from 'react-router-dom';
 const { Header, Sider, Content } = Layout;
 const { Title } = Typography;
-
+import logo from '/src/assets/Logo.png';
 const Dashboard = () => {
   const [collapsed, setCollapsed] = useState(false);
 
@@ -38,7 +38,7 @@ const Dashboard = () => {
     <Layout style={{ minHeight: '100vh', width: '100vw' }}>
       <Sider collapsible collapsed={collapsed} onCollapse={handleCollapse}>
         <div className="logo" style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
-          <img src={'https://github.com/RaniyaKelifa1/ims-phase-one-demo/blob/main/src/assets/Logo.png'} alt="Company Logo" style={{ width: '80%', height: 'auto' }} />
+          <img src={logo} alt="Company Logo" style={{ width: '80%', height: 'auto' }} />
         </div>
         <Menu theme="dark" mode="inline">
           <Menu.Item key="1" icon={<HomeOutlined />}>
