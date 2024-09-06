@@ -38,7 +38,7 @@ const Dashboard = () => {
     <Layout style={{ minHeight: '100vh', width: '100vw' }}>
       <Sider collapsible collapsed={collapsed} onCollapse={handleCollapse}>
         <div className="logo" style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
-          <img src={'src/assets/Logo.png'} alt="Company Logo" style={{ width: '80%', height: 'auto' }} />
+          <img src={'https://github.com/RaniyaKelifa1/ims-phase-one-demo/blob/main/src/assets/Logo.png'} alt="Company Logo" style={{ width: '80%', height: 'auto' }} />
         </div>
         <Menu theme="dark" mode="inline">
           <Menu.Item key="1" icon={<HomeOutlined />}>
