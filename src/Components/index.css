@@ -17,6 +17,38 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* General layout and styling */
+.site-layout-content {
+  padding: 24px;
+  background: #fff;
+  min-height: 360px;
+}
+
+/* Header styling */
+.header {
+  background: #001529;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo styling */
+.logo {
+  padding: 16px;
+}
+
+/* Menu item styling */
+.ant-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Header content styling */
+.header-content {
+  color: white;
+  text-align: center;
+}
 
 a {
   font-weight: 500;
